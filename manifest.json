@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LeetBot",
+  "version": "1.0",
+  "description": "A coding assistant aimed at assisting users in writing code in a more efficient manner.",
+  "permissions": ["activeTab", "storage", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "16": "./leetbot.jpg.png",
+    "48": "./leetbot.jpg.png",
+    "128": "./leetbot.jpg.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "./leetbot.jpg.png"
+  }
+}
